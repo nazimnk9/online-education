@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "firebase deploy --only storage:rules": "onlineeducation-cffb9",
+    "default": "onlineeducation-cffb9"
+  },
+  "targets": {
+    "onlineeducation-cffb9": {
+      "storage": {
+        "main": [
+          "onlineeducation-cffb9.appspot.com"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
