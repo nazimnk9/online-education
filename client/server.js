@@ -15,7 +15,7 @@ app
         server.use(
             "/api",
             createProxyMiddleware({
-            target: "online-education-gilt.vercel.app",
+            target: "https://online-education-gilt.vercel.app",
             changeOrigin: true,
         })
       );
@@ -26,7 +26,7 @@ app
 
     server.listen(3000, (err) => {
         if(err) throw err;
-        console.log("> Ready on online-education-gilt.vercel.app");
+        console.log("> Ready on https://online-education-gilt.vercel.app");
     });
   })
   .catch(err => {
